@@ -7,7 +7,7 @@ def swap(list):
 
 
 list=[int(i) for i in input('variables').split()]
-a=int(input())
-b=int(input())
+a=int(input("The position first indicies of the list"))
+b=int(input("The position second indicies of the list"))
 newlist=list
 print (swap(newlist))
